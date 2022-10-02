@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html ,body {
+  background-color: #2C394B;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+.name{
+  font-weight: 400;
+  font-size:15rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  letter-spacing: 60px;
+}
+
+button {
+  padding: 15px 45px 15px 45px;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  font-size: larger;
+  font-weight: 400;
+  border-radius: 10px;
+  border-width: 0px;
+  color: black;
+  background-color: #D9D9D9;
+  margin: 20px;
+}
+
+button:hover{
+  color: #fff;
+  background-color: #FF4C29;
+}
+
+.bgrp{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.lastline {
+  display: flex;
+  justify-content: center;
+  color: #FF4C29;
+  text-decoration: underline;
+  opacity: 1;
+  letter-spacing: 1px;
+}
+
+.lastline:hover {
+  color: #fff;
+}
+
+input {
+  margin-top: 70px;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  padding-right: 1rem;
+  height: 2rem;
+  width: 50rem;
+  background-color: #ffff;
+  margin-left: 21rem;
+  border-radius: 20px;
+  border: 2px solid #FF4C29;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: 'Inconsolata', monospace;
+  color: black;
+}
+
+.data {
+ color: greenyellow;
+ background-color: #082032;
+ padding: 10px;
+ font-size: 10px;
+margin: 30px 0px 0px 0px;
+}
